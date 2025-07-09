@@ -1,25 +1,27 @@
-#  Flood Detection - Finetuned Model
+# Flood Detection - Finetuned Model
 
-This project focuses on finetuning an existing deep learning model for **flood detection** using satellite imagery. It was developed for a **private competition**.
-This is **not original model code** — the work centers around finetuning and optimization.
+This project focuses on finetuning an existing deep learning model for **flood detection** using satellite imagery.  
+It was developed for a **private competition**. 
+This is **not original model code** — the work centers around **finetuning, data expansion**, and **optimization**.
 
-## Dataset
+##  Dataset
 
-The dataset used is publicly available on Kaggle:
+The dataset used is publicly available on Kaggle:  
+[Flood Detection Dataset by phmc2511](https://www.kaggle.com/datasets/phmc2511/hehehe)
 
-[ Flood Detection Dataset by phmc2511](https://www.kaggle.com/datasets/phmc2511/hehehe)
-
-- Satellite images labeled for flood vs non-flood conditions
+- Most of the data was sourced from Kaggle
+- Additional data was added and augmented to improve performance
+- Satellite images are labeled for flood vs non-flood conditions
 - Preprocessed for input into a deep learning pipeline
 
 ##  Model & Training
-
-- Base model: *(please specify — e.g., EfficientNet, ResNet, etc.)*
-- Finetuned on the provided dataset using transfer learning
-- Achieved **0.929 private leaderboard score**
+- Finetuned using transfer learning
+- Trained with standard techniques: augmentations, LR tuning, early stopping
+- Achieved **0.929** on the private leaderboard
 
 ##  Notes
 
-    This was developed during a private competition.
+- Developed as part of a private competition
+- Focused on **finetuning and data strategy**, not model architecture
+- For **educational or research use only**
 
-    For educational or research use only.
